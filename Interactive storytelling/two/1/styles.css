@@ -1,0 +1,43 @@
+.photo{
+    position: absolute;
+}
+
+#one{
+    position: absolute;
+    top:50px;
+    left:20px;
+}
+#two {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
+
+#three{
+    position: absolute;
+    top: 50px;
+    left: 700px;
+}
+
+#four{
+    position: absolute;
+    top:500px;
+    left:1000px;
+}
+
+#five{
+    font-style: oblique;
+    font-size: 36px;
+    position: absolute;
+    top: 320px;
+    left: 270px;
+}
+
+#six{
+    position: absolute;
+    font-size: 16px;
+    top: 500px;
+    left: 1220px;
+}
+
+

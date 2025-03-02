@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    justify-content: end;
+    align-content: center;
+    grid-template-rows: repeat(6, 25%);
+    grid-template-columns: repeat(6, 100px);
+    padding-top: 70px;
+    width: 100vw;
+    position: relative;
+}
+
+#one {
+    z-index: 1;
+}
+
+#two {
+    z-index: 1;
+}
+
+#three {
+    z-index: 2;
+}
+
+#thirteen {
+    position: absolute;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+#fourteen {
+    position: absolute;
+    padding-left: 500px;
+    padding-top: 40px;
+    font-size: 12px;
+}
+
+#fourteen a {
+    color: hotpink;
+    text-decoration: none; /* Optional: Removes underline */
+}
+
+#fourteen a:hover {
+    color: purple; /* Optional: Changes color on hover */
+}

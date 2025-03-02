@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+}
+
+.container {
+    background-color: white;
+    border: 1px solid red;
+    height: 80vh;
+    margin-bottom: 10vh;
+}
+
+.container div {
+    border: 1px solid blue;
+    background-color: lightcyan;
+}
+
+.margin {
+    width: 50%;
+    height: 40vh;
+    margin-top: 20vh;
+    margin-right: auto;
+    margin-left: auto;
+}

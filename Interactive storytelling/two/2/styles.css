@@ -1,0 +1,23 @@
+body {
+    font-size: 72px;
+    background-image: url(../../images/jeremy.png);
+    color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of viewport */
+    text-align: center;
+    margin: 0
+}
+
+a {
+    font-size: 36px;
+    color: limegreen;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 72px;
+    color: cyan;
+    text-decoration: none;
+}

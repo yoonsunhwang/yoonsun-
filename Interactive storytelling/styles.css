@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.item {
+    width: 400px;
+    height: 400px; /* Ensuring a square shape */
+    overflow: hidden; /* Prevents image overflow */
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 400px;
+        margin: auto;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .item {
+        height: 200px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,19 @@
+.container {
+    display: flex; 
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Ensures it takes the full viewport height */
+}
+
+.text-align {
+    text-align: center; /* Centers text inside the div */
+    font-size: 24px; /* Optional: Adjust font size */
+}
+
+a{
+    color:blueviolet;
+}
+
+a:hover{
+    color:aqua
+}

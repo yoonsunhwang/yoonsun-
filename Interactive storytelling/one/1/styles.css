@@ -1,0 +1,14 @@
+.container{
+    background-color: white;
+    border: 10px solid white;
+    padding: 100px;
+    margin: 100px;
+}
+
+.text-align{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 50px;
+    margin: 50px;
+    font-size: 14pt;
+}

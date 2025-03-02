@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'computer modern italic';
+    src: url(fonts/cmunti.ttf)
+}
+body{
+    background-color: aquamarine;
+}
+.flex-item{
+    display: flex;
+    justify-content: center;
+    /* Centers horizontally */
+    align-items: center;
+    /* Centers vertically */
+    height: 100vh;
+    /* Full viewport height */
+    margin: 0;
+}
+
+.text {
+    position: absolute;
+    font-size: 90px;
+    bottom: 50px;
+    left: 120px;
+    font-family: 'computer modern italic';
+    color: hotpink;
+    text-shadow: 
+        -2px -2px 0 yellow,  
+         2px -2px 0 yellow,  
+        -2px  2px 0 yellow,  
+         2px  2px 0 yellow;
+}
+
+.text:hover {
+    color: plum;
+    text-decoration: none;
+}
+
