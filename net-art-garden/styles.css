@@ -1,8 +1,8 @@
-body{
+body {
     background-color: black;
 }
 
-.container{
+.container {
     padding-top: 100px;
     width: 1200px;
     margin: auto;
@@ -10,10 +10,10 @@ body{
     grid-template-columns: repeat(4, 300px);
 }
 
-img{
+img {
     width: 300px;
 }
 
-img:hover{
-    scale: 1.25;
+img:hover {
+    scale: 1.26;
 }
